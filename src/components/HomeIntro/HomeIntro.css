@@ -1,19 +1,53 @@
 .intro {
   
     display: flex;
-    flex-direction: row;
+ 
     width: 100%;
-    height: 50%;
-    background-color: red;
+    height: 40%;
+    background-color: white;
+    position: relative;
+    
+    z-index: 0;
 }
 .intro-body{
-    background-color: green;
-    width: 25%;
-    height: 50%;
+    
+    box-shadow: 0px 0.1px rgb(0, 0, 0.5);
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
+  
 }
 .intro_img {
  
-    margin-right: 0cm;
-    background-color: black;
-    height: 100%;
+    padding-right: 0rem;
+    padding-top: 0rem;
+    
+}
+.intro_text{
+    font-size: 28px;
+}
+.front-text{
+     color: #FFB400;
+     font-size: 28px;
+}
+.intro-btn {
+    background-color: #FFB400;
+    
+    position: relative;
+    width: 50%;
+    height: 15%;
+    
+    
+}
+.intro-text{
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    color: #2F4858;
+    padding-top: 3rem;
+    font-size: 18px;
+    
 }
